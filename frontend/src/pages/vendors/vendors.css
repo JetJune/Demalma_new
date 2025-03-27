@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Ensures items align at the top */
+    justify-content: flex-start;
+    gap: 20px; /* Adjust spacing */
+    padding: 20px;
+  }
+  
+  /* Sidebar Styling */
+  .vendors-sidebar {
+    width: 250px; /* Adjust width */
+    height: 100vh;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-right: 2px solid #e2e2e2;
+  }
+  
+  /* Food Display Styling */
+  .food-display {
+    flex-grow: 1; /* Takes up the remaining space */
+    padding: 20px;
+  }
+  

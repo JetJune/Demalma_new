@@ -1,0 +1,8 @@
+BACKEND PREPARATION
+npm install express mongoose jsonwebtoken bcrypt cors dotenv body-parser multer stripe validator nodemon 
+
+
+MongoDB Atlas platform
+username : demalma_admin
+NousSommes9EnToutDansCeProjet!
+qTaCYe2PsLaAM7WJ
