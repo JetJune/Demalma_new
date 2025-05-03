@@ -1,7 +1,13 @@
 import "./header.css";
 const Header = () => {
   return (
-    <div className="header">
+    <>
+
+      <div>
+        <h1>LES PUBS SERONT ICI</h1>
+      </div>
+
+      <div className="header">
       <div className="header-content">
         <h2>Faites-vous livrer à n&#39;importe quel moment.</h2>
         <p>
@@ -14,6 +20,9 @@ const Header = () => {
         <button>View Menu</button>
       </div>
     </div>
+
+    
+    </>
   );
 };
 

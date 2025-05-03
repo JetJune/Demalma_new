@@ -8,6 +8,7 @@ const FoodDisplay = ({ seller }) => {
   const { food_list } = useContext(StoreContext);
   
   return (
+    <>
     <div className="food-display" id="food-display">
       <h2>MENU</h2>
       <div className="food-display-list">
@@ -28,6 +29,14 @@ const FoodDisplay = ({ seller }) => {
         })}
       </div>
     </div>
+        <br /><br /><br /><br />
+    <div>
+    <h4>Faites une commande spongtanee</h4>
+    <textarea name="commande spontanee" id="">Passez votre commande</textarea>
+
+    </div>
+
+    </>
   );
 };
 
